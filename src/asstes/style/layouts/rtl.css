@@ -1,0 +1,24 @@
+html, body{
+    direction: rtl;
+}
+.header>div>.search>input {
+    padding-right: 30px;
+    padding-left: 0px;
+}
+.cart-header {
+    transform: translate(-28px, -5px);
+}
+.home-info-card h5, .home-info-card p{
+    text-align: right !important;
+}
+.product-count{
+    margin-right: 20px
+}
+.header-cart-item img{
+    margin-left: 20px;
+    margin-right: 0;
+}
+.go-to-cart-btn{
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+}

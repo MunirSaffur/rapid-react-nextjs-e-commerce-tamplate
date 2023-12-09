@@ -1,0 +1,10 @@
+/* Components */
+@import url('./components/header.css');
+@import url('./components/footer.css');
+
+/* Layouts */
+@import url('./layouts/home.css');
+@import url('./layouts/category.css');
+@import url('./layouts/product.css');
+@import url('../style/layouts/cartAndCheckout.css');
+@import url('../style/layouts/profile.css');

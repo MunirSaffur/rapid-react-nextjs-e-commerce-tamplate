@@ -1,5 +1,23 @@
 import { Inter } from 'next/font/google'
+import { Providers } from './globalRedux/Providers';
+// bootstrap 
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// swiper carousel
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/effect-fade'
+// style
 import './globals.css'
+import '../asstes/style/main.css'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer';
+import MobileHeader from '@/components/MobileHeader';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,9 +27,17 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <Providers>
+        <Header/>
+        <MobileHeader />
+        {children}
+        <Footer/>
+      </Providers>
+      </body>
     </html>
   )
 }

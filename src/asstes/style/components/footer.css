@@ -1,0 +1,19 @@
+.footer{
+    background: var(--main-color);
+    color: #fff !important;
+    padding: 3rem 0rem;
+}
+.link-list-footer>li>a{
+    text-decoration: none;
+    color: #fff !important
+}
+.link-list-footer>li>a:hover{
+    color: #6c757d !important
+}
+.footer-bottom{
+    background-color: #f7f9fc;
+}
+.footer-bottom>p{
+    margin: 0;
+    padding: .5rem;
+}

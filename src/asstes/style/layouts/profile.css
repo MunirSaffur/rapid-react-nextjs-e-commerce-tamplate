@@ -1,0 +1,47 @@
+.account-sidebar{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px #dae1e782;
+    position: sticky;
+    top: 16px;
+}
+.account-sidebar p {
+    color: var(--text-main-color);
+    cursor: pointer;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-radius: .5rem;
+    transition: .3s;
+}
+.account-sidebar p:hover{
+    background-color: var(--primary-color);
+}
+.account-content{
+    padding: 30px;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px #dae1e782;
+}
+.my-order-item{
+    padding: 20px;
+    border: 1px solid #33333314;
+    border-radius: .5rem;
+}
+.my-order-item h5{
+    color: var(--text-main-color)
+}
+.my-order-item span{
+    font-size: 16px;
+}
+.my-order-item-content button{
+    color: var(--main-color);
+}
+.my-order-item-content span{
+    color: var(--text-main-color)
+}
+.my-order-item-content>div{
+    border-bottom: 1px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+}
