@@ -39,7 +39,7 @@ import {
   getCartItemsFromLocalStorage,
 } from "../app/globalRedux/features/CartSlice";
 import Link from "next/link";
-import NavBarItem from "./navBarItem";
+import NavBarItem from "./NavBarItem";
 
 export default function Header() {
   const [language, setLanguage] = useState("English");
