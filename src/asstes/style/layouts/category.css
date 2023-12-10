@@ -17,6 +17,7 @@
 .side-filter-rating h5,
 .side-filter-color h5{
     font-size: 16px;
+    margin-bottom: 10px !important;
 }
 .side-filter-categories>ul, .side-filter-brands>ul{
     height: 200px;
