@@ -49,8 +49,9 @@ export default function MobileFilters(props) {
     <Root>
       <CssBaseline />
       <Global
+       
         styles={{
-          '.MuiDrawer-root > .MuiPaper-root': {
+          '.filter-mob .MuiPaper-root': {
             height: `calc(80% - ${drawerBleeding}px)`,
             overflow: 'visible',
           },
@@ -70,9 +71,10 @@ export default function MobileFilters(props) {
         ModalProps={{
           keepMounted: true,
         }}
-        className='block sm:hidden'
+        className='block sm:hidden filter-mob'
       >
         <StyledBox
+
           sx={{
             position: 'absolute',
             top: -drawerBleeding,

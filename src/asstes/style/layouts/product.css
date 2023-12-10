@@ -42,6 +42,12 @@ div.image-gallary-small.swiper-slide-thumb-active>img{
 }
 .product-details{
     padding-left: 20px;
+    color: var(--text-main-color);
+}
+.product-details h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #333 !important
 }
 .product-details>ul{
     padding-top: 20px !important;

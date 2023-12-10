@@ -167,7 +167,7 @@ export default function MobileHeader() {
           </div>
           <Link href='/'><Image src={rapid_logo} width={120}/></Link>
           {/* header Actions */}
-          <div className="flex items-center justify-between mobile-header-actions">
+          <div className="flex items-center justify-between mobile-header-actions me-2">
             <Link href="/profile">
               <PersonIcon />
             </Link>

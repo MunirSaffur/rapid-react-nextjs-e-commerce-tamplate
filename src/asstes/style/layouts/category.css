@@ -28,6 +28,7 @@
 }
 .side-filter-categories>ul, .side-filter-categories>ul>li>ul{
     padding: 0 10px;
+    margin-bottom: 1rem;
 }
 .side-filter-categories a, .side-filter-brands a{   
     font-size: 14px;
